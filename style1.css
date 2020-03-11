@@ -1,0 +1,88 @@
+body{
+    background-image:url(Instagram%20photo%20by%20the_swiss_explorer_%20at%202020-02-01-12-47-14.jpg);
+       
+    background-size:cover;
+}
+
+header{
+   
+    height:70px;font-style: italic;
+}
+
+nav{
+     height:70px;
+}
+
+section{
+height:500px;
+    width:15%;
+}
+
+aside{
+    height:500px;
+    width:1126px;margin-left:205px; margin-top:-506px;
+}
+
+footer{
+    height:50px;width:1331px;
+} 
+
+img{
+                height:150px;
+                width:150px;
+            }
+
+img:hover{
+    transform: rotateX(360deg);
+    transition-duration: 5s;
+}
+h1{
+    color: greenyellow;
+}
+
+h2{
+    color: aquamarine;
+}
+
+
+th{
+    color: darkorange;font-size:30px;font-weight: 500;letter-spacing: 20px;text-transform: capitalize; text-align: center;
+}
+td{
+    padding:15px;
+}
+
+.text{
+    text-align: center;
+}
+
+.text1{
+font-size:50px;
+    font-weight: 500;
+    letter-spacing: 30px;animation-name:frame;animation-duration: 5s;height:50px;
+}
+@keyframes frame{
+    30%{background-image:url(beauty.jpg);}
+    30%{background-image:url(Instagram%20photo%20by%20_payaniga%20at%202020-02-01-12-53-22.jpg);}  
+}
+.text span{
+color:indianred;
+    text-transform: uppercase;
+    display:inline-block; text-align: center;
+}
+.main{
+    float:right;
+    list-style-type: none;
+}
+.main li{
+    display: inline-block;
+    list-style-type: none;   
+}
+.main a {
+    text-decoration: none;
+    color: white; 
+    border: 5px solid;padding:5px 20px;margin-left:90px;margin-right:20px;
+} 
+.one{
+    margin-left:30px; margin-top:-50px;padding-top: 50px;
+}
